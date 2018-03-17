@@ -1,0 +1,307 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+
+}
+
+
+/* Nav Bar */
+
+.nav-bar {
+	margin: 0px;
+}
+
+.nav-left {
+	display: inline-block;
+	float: left;
+    margin: 10px 0 0 60px;
+   	text-transform: uppercase;
+	text-decoration: none;
+	color: #464646;
+}
+
+.nav-right {
+	display: inline-block;
+   	text-transform: uppercase;	
+	float: right;
+	margin: 3px 0 0 0;
+    line-height: 3.15;
+    font-size: 11px;
+    }
+
+input {
+	border: none;
+}
+
+a.left {
+	text-decoration: none;
+	color: #464646;
+	line-height: 3;
+    padding-left: 44px;
+}
+
+
+/* Header */
+
+header {
+	text-align: center;
+	padding: 66px;
+
+}
+header img {
+	width: 75px;
+	height: 75px;
+	border-radius: 50px;
+}
+
+p.profile-name {
+	padding-top: 20px;
+}
+
+h1.heading-text {
+	font-size: 54px;
+	}	
+
+p.date-written {
+	font-size: 18px;
+}
+
+/* line seperator*/
+div.line-seperator {
+	height: 2px;
+    width: 57px;
+    background-color: #c79852;
+    margin: -40px auto;
+    text-align: center;
+}
+
+
+
+p.content-1 {
+	text-align: left;
+    margin: 70px 300px 29px 300px;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #565656;
+
+}
+
+p.content-2 {
+	text-align: left;
+    margin: 29px 300px -45px 300px;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #565656;
+
+}
+
+p.content-3 {
+	text-align: left;
+    margin: 70px 300px 70px 300px;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #565656;    
+}
+
+p.content-4 {
+	text-align: left;
+    margin: 26px 300px 29px 300px;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #565656;
+}
+
+p.content-5 {
+	float: none;
+	text-align: left;
+    margin: 26px 300px 29px 300px;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #565656;
+    position: relative;
+    top: 40px;
+}
+
+p.content-6 {
+	float: none;
+	text-align: left;
+    margin: 26px 300px 29px 300px;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #565656;
+    position: relative;
+    top: 40px;
+}
+
+div.first-image {
+	text-align: center;	
+}
+
+/*special cursive font*/
+p.quote {
+    text-align: center;
+    margin: -42px 318px;
+    font-size: 38px;	
+    font-family: 'Dancing Script', cursive;
+    color: #565656;
+
+}
+
+/*special cursive font*/
+
+#quote-author {
+	margin: 47px 0 10px 0;
+    font-weight: 300;
+    font-size: 29px;
+    text-align: center;
+    color: #565656;
+
+}
+
+/* Ask about this image grid, how does it work and why */
+div.image-grid {
+	text-align: center;
+	width: 80%;
+	padding-left: 19%;
+}
+
+.image-grid img {
+	float: left;
+}
+
+img.pic1{
+	height: 410px;
+	padding: 10px;
+}
+
+img.pic1,
+img.pic2 {
+	padding: 10px;
+}
+
+
+
+footer {
+	text-align: center;
+    margin: 85px 0 0 0;
+}
+
+footer div.line-seperator {
+	margin: 30px auto
+}
+
+.fa-heart{
+	color: red;
+
+}
+
+form {
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+form textarea {
+	height: 110px;	
+	width: 70%;
+	display: inline-block;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+	color: #555;
+	font-size: 14px;
+    padding: 10px 10px;
+}
+
+
+div.button-group {
+	display: relative;
+	display: inline;
+	border: none;
+}
+
+button {
+	border: none;
+	background: #fff;
+	font-size: 10px;
+}
+
+.left {
+	float: left;
+	margin-left: 6px;
+	text-transform: capitalize;
+	position: relative;
+    left: 161px;
+    top: 3px;
+	font-size: 12px;
+}
+
+button.right {
+    width: 131px;
+    height: 20px;
+	float: right;
+	text-transform: uppercase;
+    margin: -17px 147px 0 0;
+	font-size: 12px;
+}
+
+button a {
+	text-decoration: none;
+    color: #555;
+}
+
+body > footer {
+	background: #f8f9fe;
+	width: 100%;
+	height: 200px
+}
+
+footer .previous-article {
+	float: left;
+	margin: 6% 0 0 20%;
+	font-size: 17px;
+}
+
+footer .next-article {
+	float: right;
+	margin: 6% 20% 0 0;
+	font-size: 17px;
+
+}
+
+div a {
+	text-decoration: none;
+	color: #434345;
+
+}
+
+
+.next-button {
+	text-align: right;
+}
+
+.previous-button {
+	text-align: left;
+}
+.fa-arrow-left {
+	text-transform: uppercase;
+    margin: 0 123px 15px 0;
+    font-size: 18px;
+}
+
+.fa-arrow-right {
+	text-transform: uppercase;
+	margin: 0 0 15px 136px;
+    font-size: 18px;
+
+}
+
+footer#end {
+	color:#434345;
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+
+}
+
+
